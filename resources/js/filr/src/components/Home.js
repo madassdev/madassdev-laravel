@@ -33,7 +33,7 @@ function Home(props) {
 
     return (
         <Container>
-            {props.user === null && <Redirect to="/login" />}
+            {/* {props.user === null && <Redirect to="/login" />} */}
             <LeftSection openModal={handleClick} />
             <MainContainer>
                 <SearchBar>

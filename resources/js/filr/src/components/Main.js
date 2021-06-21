@@ -7,9 +7,6 @@ import { Link } from "react-router-dom";
 function Main() {
     return (
         <Container>
-            <SearchBar>
-                <input name="searchInput" placeholder="SEARCH HERE" />
-            </SearchBar>
             <CloudSection>
                 <p>Cloud storage</p>
                 <CloudContainer>
@@ -79,17 +76,6 @@ const Container = styled.div`
    
 `;
 
-const SearchBar = styled.div`
-    width: 70%;
-    margin: 10px auto;
-
-    input {
-        border: 1px solid #e1e1e1;
-        width: 100%;
-        padding: 5px 20px;
-        border-radius: 5px;
-    }
-`;
 
 // REUSABLES
 const CommonCard = styled.div`
